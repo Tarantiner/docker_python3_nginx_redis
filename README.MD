@@ -22,7 +22,7 @@
 * docker build -t repo:tag .
 * 等待执行完毕 ...
 
-启动容器：
+### 启动容器：
 * docker images 查看本地镜像
 * docker run -it --name img_name --dns 8.8.8.8 --dns 8.8.4.4 --privileged repo:tag /bin/bash
 > 若修改/etc/resolv.conf每次启动会重置，所以在命令行修改
