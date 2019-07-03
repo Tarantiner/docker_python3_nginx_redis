@@ -1,0 +1,11 @@
+[user]
+	name = Tarantiner
+	email = tarantiner@163.com
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	dog = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit" 
+[core]
+	excludesfile = C:/Users/Administrator/.gitignore

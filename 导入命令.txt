@@ -1,0 +1,1 @@
+docker load -i ~/path/ubuntu18_04.tar 
